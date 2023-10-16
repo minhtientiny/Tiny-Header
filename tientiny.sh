@@ -79,22 +79,22 @@ echo "";
 apt install figlet pv ncurses-utils binutils coreutils wget git zsh termux-api procps gawk exa termux-tools -y &> /dev/null;
 rubygem_d &> /dev/null
 termux-wake-lock;
-if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
-	echo -e "\e[1;34m[*] \033[32mRemo773.flf Phông Chữ Figlet Hiện Diện\033[0m";
+if [ -e $PREFIX/share/figlet/MinhTien.flf ]; then
+	echo -e "\e[1;34m[*] \033[32mMinhTien.flf Phông Chữ Figlet Hiện Diện\033[0m";
 	sleep 4
 else
-wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
+wget https://raw.githubusercontent.com/remo7777/MinhTien/master/MinhTien.flf &> /dev/null;
 sleep 3
-cp Remo773.flf $PREFIX/share/figlet/Remo773.flf;
+cp MinhTien.flf $PREFIX/share/figlet/MinhTien.flf;
 cp ASCII-Shadow.flf $PREFIX/share/figlet/ASCII-Shadow.flf;
 sleep 3
-rm Remo773.flf
+rm MinhTien.flf
 fi
 THEADER () 
 {
 clear;
 echo -e "\033[01;32m
-Remo773 (2023)
+MinhTien (2023)
 		
 	Menu
 +---------------------------*/
@@ -117,7 +117,7 @@ if [[ ${#PROC} -gt 8 ]]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2023)
+MinhTien (2023)
 
 	Menu
 +---------------------------*/
@@ -217,10 +217,10 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- TienTiny")\e[0m"
+echo -e "\033[31m$(figlet -f MinhTien "T- TienTiny")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
-Remo773 : (\e[33m14.4.2023\e[32m)
+MinhTien : (\e[33m14.4.2023\e[32m)
 
 1. Tien Tiny
 2. Zsh-syntax-highlight (\e[33mBổ Sung\e[01;32m)
