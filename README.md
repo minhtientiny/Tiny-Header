@@ -6,10 +6,10 @@
 <img src="https://i.ibb.co/ZfhPkFD/IMG-1697500530558-1697500532113.jpg">
 
 ## Lệnh Setup
-1. `apt update && yes | apt upgrade && apt update && apt install git -y`
-2. `git clone https://github.com/minhtientiny/Tiny-Header.git
-3. `cd Tiny-Header/`
-4. `ls`
+1. ```apt update && yes | apt upgrade && apt update && apt install git -y```
+2. ```git clone https://github.com/minhtientiny/Tiny-Header.git```
+3. ```cd Tiny-Header/```
+4. ```ls```
 5. `bash tientiny.sh`
 6. after complete all processing just --open new session-- or `source ~/.zshrc`
 7. For remove tool `cd ~/Tiny-Header && bash tientiny.sh --remove && exit`
