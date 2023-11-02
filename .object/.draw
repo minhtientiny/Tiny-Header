@@ -12,14 +12,14 @@ echo
 DRAW
 #echo "a b c d e f g h i j k l m n o p q r s t u v w x y z"
 echo "lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk"
-echo "x                                                           x"
-echo "x                                                           x"
-echo "x                                                           x"
-echo "x                                                           x"
-echo "x                                                           x"
-echo "x                                                           x"
-echo "x                                                           x"
-echo "x                                                           x"
+echo "║                                                           ║"
+echo "║                                                           ║"
+echo "║                                                           ║"
+echo "║                                                           ║"
+echo "║                                                           ║"
+echo "║                                                           ║"
+echo "║                                                           ║"
+echo "║                                                           ║"
 echo "mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj"
 WRITE
 #echo "a b c d e f g h i j k l m n o p q r s t u v w x y z"
@@ -29,17 +29,17 @@ DRAW
 PUT 3 0
 tput civis
 tput setaf 2
-echo "x"
-echo "x"
-echo "x"
-echo "x"
-echo "x"
-echo "x"
-echo "x"
-echo "x"
+echo "║"
+echo "║"
+echo "║"
+echo "║"
+echo "║"
+echo "║"
+echo "║"
+echo "║"
 WRITE
 PUT 10 42
-echo -e "\e[35mTien Tiny \e[33m1.8\e[0m"
+echo -e "\e[35mTien Tiny \e[33m1.9\e[0m"
 PUT 12 0
 echo
 NORM
