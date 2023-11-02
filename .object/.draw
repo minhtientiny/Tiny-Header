@@ -39,7 +39,7 @@ echo "║"
 echo "║"
 WRITE
 PUT 10 42
-echo -e "\e[35mTien Tiny \e[33m1.9\e[0m"
+echo -e "\e[35mTiny Header \e[33m1.9\e[0m"
 PUT 12 0
 echo
 NORM
